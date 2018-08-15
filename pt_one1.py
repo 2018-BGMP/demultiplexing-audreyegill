@@ -13,12 +13,14 @@ files= ('/projects/bgmp/shared/2017_sequencing/1294_S1_L008_R1_001.fastq.gz', '/
 
 # Import packages
 import numpy as np
+import gzip
 
 def bp_means(file, n):
     # create np array of 0's with name data_title
     data= np.zeros(101)
     # open file using file_path
-    with open(file, 'r') as f:
+    with gzip.open(file, 'rt') as f:
+
         while True:
             line1 = f.readline()
             line2 = f.readline()
