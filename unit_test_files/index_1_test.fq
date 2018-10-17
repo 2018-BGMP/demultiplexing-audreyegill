@@ -1,0 +1,40 @@
+@one index1:not:valid no_N q_31.625
+ATTTCGAC
++
+#AA<FJJJ
+@two index2:not:valid no_N q_31.625
+GTAGCGTA
++
+#AA<FJJJ
+@three both:valid:but:hopped no_N q_31.625
+CTAGCTCA
++
+#AA<FJJJ
+@four this:is:the:good:record
+GTAGCGTA
++
+#AAAFJJJ
+@five index1:has:Ns q_32.25
+NACAGCGA
++
+#AAAFJJJ
+@six index2:has:Ns q_32.25
+AACAGCGA
++
+#AAAFJJJ
+@seven both:records:have:Ns q_32.25
+NACAGCGA
++
+#AAAFJJJ
+@eight index1:has:badqual no_N q_28.75
+TTCCTAAG
++
+#AAAFJJ<
+@nine index2:has:bad:qual no_N q_32.25
+TATGGCAC
++
+#AAAFJJJ
+@ten both:have:bad:qual no_N q_20.75
+GTGCCATA
++
+#A-A-AA-
